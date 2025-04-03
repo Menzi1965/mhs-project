@@ -1,0 +1,17 @@
+com\mhs\spring\project\mhs_project\entities\Person$PersonBuilder.class
+com\mhs\spring\project\mhs_project\entities\Application$ApplicationBuilder.class
+com\mhs\spring\project\mhs_project\MhsProjectApplication.class
+com\mhs\spring\project\mhs_project\entities\Grade.class
+com\mhs\spring\project\mhs_project\repository\ApplicationRepository.class
+com\mhs\spring\project\mhs_project\service\impl\ApplicationServiceImpl.class
+com\mhs\spring\project\mhs_project\service\ApplicationService.class
+com\mhs\spring\project\mhs_project\dto\PersonDto.class
+com\mhs\spring\project\mhs_project\service\PersonService.class
+com\mhs\spring\project\mhs_project\controller\PersonController.class
+com\mhs\spring\project\mhs_project\repository\PersonRepository.class
+com\mhs\spring\project\mhs_project\entities\Person.class
+com\mhs\spring\project\mhs_project\dto\ApplicationDto.class
+com\mhs\spring\project\mhs_project\entities\Application.class
+com\mhs\spring\project\mhs_project\entities\Student.class
+com\mhs\spring\project\mhs_project\controller\ApplicationController.class
+com\mhs\spring\project\mhs_project\service\impl\PersonServiceImpl.class
