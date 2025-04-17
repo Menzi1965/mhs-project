@@ -18,12 +18,11 @@ public class PersonServiceImpl implements PersonService {
 
     @Override
     public Person createPerson(PersonDto personDto) {
-        Person  person= Person.builder()
-                .name(personDto.getName())
-                .surname(personDto.getSurname())
-                .idNo(personDto.getIdNo())
-                .gender(personDto.getGender())
-                .build();
+        Person  person= new Person(
+                personDto.getName(),
+                personDto.getSurname(),
+                personDto.getIdNo(),
+                personDto.getGender());
 
         return personRepository.save(person);
 

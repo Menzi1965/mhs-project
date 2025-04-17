@@ -18,15 +18,9 @@ public class ApplicationServiceImpl implements ApplicationService {
     @Override
     public Application createApplication(ApplicationDto applDto) {
 
-        Application application= Application.builder()
-                .gradeAppliedFor(applDto.getGradeAppliedFor())
-                .status(applDto.getStatus())
-                .reason(applDto.getReason())
-                .student(applDto.getStudent())
-                .build();
+        Application application= new Application(applDto.getGradeAppliedFor(), applDto.getReason(), applDto.getStatus(), applDto.getStudent());
 
-        return application;
-
+       return applicationRepository.save(application);
 
 
 
