@@ -25,7 +25,6 @@ public class Application {
     @OneToOne(optional = false,cascade = CascadeType.PERSIST)
     private Student student;
 
-
     public Application(int applicationId, String reason, String status, Student student) {
         this.applicationId = applicationId;
         this.reason = reason;
